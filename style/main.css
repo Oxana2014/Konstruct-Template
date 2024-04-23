@@ -33,7 +33,7 @@ html {
     margin: 0 auto;
   }
   .logo {
-    padding-top: 40px;
+    padding-top: 38px;
     margin: 0 auto 333px;
     width: 102px;
     height: 23px;
@@ -356,4 +356,136 @@ html {
           
           .newsletter__btn {
             display: inline-block;
+          }
+
+          .footer {
+            background-color: #141A20;
+            color:#fff
+          }
+          .footer__container {
+            max-width: 943px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 39px;
+            margin: 0 auto;
+            padding-right: 29px;
+          }
+          .footer__company {
+          max-width: 250px;
+          margin-right: 60px;
+          }
+          .footer__h5 {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+            color: #fff;
+          text-transform: uppercase;
+            letter-spacing: 0.85px;
+            margin-bottom: 19px;
+            }
+          
+          .footer__logo {
+            width: 101.62px;
+            height: 23px;
+            margin-bottom: 15px;
+          }
+          .footer__img {
+          }
+          .footer__company-p {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 19px;
+            letter-spacing: 0.85px;
+          }
+          .footer__link {
+           margin-right: 36px;
+           min-width: 273px;
+          }
+          .links-h5 {
+            margin-bottom: -1px;
+          }
+          .footer__link__flex {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 0.85px;
+          line-height: 25px;
+          display: flex;
+          }
+          
+          .links-left {
+               list-style: none;
+             padding: 0;
+             min-width: 78px;
+          }
+          .links-center {
+            list-style: none;
+            padding-left: 33px;
+          }
+          .links-right {
+            list-style: none;
+          }
+          .footer__contact {
+            margin-right: 59px;
+          }
+          .contact-h5 {
+          margin-bottom: 16px;
+          }
+          .footer__address {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+          line-height: 16px;
+          letter-spacing: 0.85px;
+          margin-bottom: 15px;
+          }
+          .footer__phone {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+          line-height: 16px;
+          letter-spacing: 0.85px;
+          margin-bottom: 15px;
+          }
+          .footer__email {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+          line-height: 16px;
+          letter-spacing: 0.85px;
+          }
+          .footer__social {
+            padding-top:28px;
+            min-width: 87px;
+            display: flex;
+            justify-content: space-between;
+          }
+          .social__icon {
+            height: 14px;
+            width: 14px;
+            background-color: #000;
+            color:#fff
+          }
+          .footer__copyright {
+            background-color: #171819;
+            min-height: 60px;
+          }
+          .copyright {
+            color:#fff;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-size: 11px;
+          text-align: center;
+          letter-spacing: 0.85px;
+          padding-top: 60px;
+          padding-bottom: 24px;
           }
