@@ -47,6 +47,7 @@ html {
     color: #fff;
     margin-bottom: 0px;
     text-transform: uppercase;
+  
   }
   .text-p {
   text-align: center;
@@ -57,7 +58,7 @@ html {
           font-variation-settings:
             "wdth" 100;
         font-size: 16px;
-  
+  line-height: 18px;
         color: #fff;
         margin-bottom: 221px;
   }
@@ -75,6 +76,7 @@ html {
     letter-spacing: 0.1em;
   }
   .navbar {
+    min-height: 65px;
     margin-bottom: 57px;
     }
     .container {
@@ -82,8 +84,8 @@ html {
         max-width: 940px;
     }
     .navbar__flex {
-    
-        margin:  12px auto 66px;
+    padding-top: 14px;
+        margin: 0 auto;
          display: flex;
        /*   justify-content: space-between; */
         max-width: 940px;
@@ -91,7 +93,7 @@ html {
     
     .logo-black {
        margin-left: 6px;
-        margin-top: 12px;
+        padding-top: 10px;
     }
     .logo-img {
          width: 80px;
@@ -122,4 +124,77 @@ html {
     .menu a.active {
         color: #00A4E5;
         font-weight: bold;
+    }
+    .about__h2 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        letter-spacing: 2.31px;
+          color: #48555B;
+          font-size: 18px;
+          text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 13px;
+    }
+    .underline {
+        width: 50px;
+        height: 2px;
+        background-color: #00A4E5;
+       
+    }
+    .underline.center {
+       margin: 0 auto 53px;
+    }
+    .about__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about__text {
+          max-width: 405px;
+    }
+    .about__summary {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        color: #48555B;
+        font-size: 20px;
+        margin-bottom: 31px;
+        max-width: 395px;
+        line-height: 27px;
+        letter-spacing: 0.05px;
+    }
+    .about__summary span {
+        color: #16ACE8;
+    }
+    
+    .about__details {
+        color: #48555B;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 23px;
+        max-width: 398px;
+        letter-spacing: 0.01em;
+    }
+    .about__features {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    
+    }
+    
+    .plan {
+        min-width: 140px;
+        background-image: url('../img/plan.jpg');
+    }
+    
+    .manage {
+        min-width: 140px;
+        background-image: url('../img/manage.jpg');
+    }
+    .deliver {
+        min-width: 140px;
+        background-image: url('../img/deliver.jpg');
     }
