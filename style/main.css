@@ -126,6 +126,7 @@ html {
         font-weight: bold;
     }
     .about__h2 {
+        padding-top:70px;
         font-family: "Open Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: bold;
@@ -198,3 +199,94 @@ html {
         min-width: 140px;
         background-image: url('../img/deliver.jpg');
     }
+    #services {
+        margin-bottom: 120px;
+      }
+      .services__header {
+        margin-top: 118px;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 75px;
+      }
+      .services__header-title {
+        min-width: 200px;
+      }
+      .services__header-h2 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        color: #48555B;
+        font-size: 18px;
+        letter-spacing: 2.31px;
+        text-transform: uppercase;
+      margin-bottom: 12px;
+      }
+      .underline {
+      }
+      .left {
+        margin-bottom: 0px;
+      }
+      .services__header-p {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        color: #48555B;
+        font-size: 11px;
+        letter-spacing: 0.2px;
+        max-width: 400px;
+      margin-left: 120px;
+      margin-top: 1px;
+      line-height: 18px;
+      }
+      .services__header_btn {
+         padding: 11px 29px;
+        margin-top: 0px;
+      }
+      .btn_blue {
+        background-color: #00A4E5;
+      color: #fff;
+       width: 150px;
+        height: 40px;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 13px;
+        border: none;
+      
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+      }
+      .services__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+      }
+      .services__grid-item {
+       padding: 38px 23px 39px;
+      min-width: 290px;
+      }
+      .services-item__icon {
+        width: 75px;
+        margin-bottom: 25px;
+      }
+      .services-icon {
+      }
+      .services-item__h3 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.40px;
+        color: #48555B;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .services-item__p {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 22.5px;
+        letter-spacing: 0.15px;
+      }
