@@ -320,3 +320,40 @@ html {
         text-align: center;
         
         }
+        #newsletter {
+            background-color: #171819;
+            min-height: 100px;
+            padding-top: 26px;
+            margin-top: -1px;
+          }
+          .newsletter__container {
+            width: 685px;
+            height: 40px;
+            margin: -1px auto;
+            display: flex;
+            justify-content: space-between;
+          }
+          .newsletter__h3 {
+            font-family: "Open Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: bold;
+          font-size: 22px;
+          color: #fff;
+          padding-top: 9px;
+          letter-spacing: 0.85px;
+          }
+          .newsletter__right {
+            display: flex;
+            justify-content: end;
+            align-items: start;
+          }
+          .newsletter__input {
+            padding: 10px 20px;
+            border: none;
+           width: 250px;
+          display: inline-block;
+          }
+          
+          .newsletter__btn {
+            display: inline-block;
+          }
