@@ -26,8 +26,8 @@ p {
 }
 
 #header {
-  max-width: 1440px;
-  min-height: 768px;
+  /* max-width: 1440px; */
+  height: 768px;
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -287,8 +287,8 @@ p {
   letter-spacing: 0.15px;
 }
 #get-in-touch {
-  max-width: 1440px;
-  min-height: 499px;
+  /* max-width: 1440px; */
+height: 499px;
   background-image: url("../img/bg-get-in-touch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,8 +318,8 @@ p {
 }
 #newsletter {
   background-color: #171819;
-  max-width: 1440px;
-  min-height: 100px;
+  /* max-width: 1440px; */
+  height: 100px;
   padding-top: 26px;
   margin: 0 auto;
   margin-top: -1px;
@@ -359,7 +359,7 @@ p {
 .footer {
   background-color: #141a20;
   color: #fff;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 .footer__container {
