@@ -476,6 +476,7 @@ height: 499px;
 }
 .social__link {
   color: #fff;
+  transition: color 0.3s ease-in-out
 }
 .social__link:hover {
   color:#48555b;
