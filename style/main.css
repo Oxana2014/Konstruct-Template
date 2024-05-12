@@ -462,15 +462,17 @@ height: 499px;
   line-height: 16px;
   letter-spacing: 0.85px;
 }
-.footer__social {
+.footer__social-list {
   padding-top: 28px;
+  padding-left: 0;
+  list-style: none;
   min-width: 87px;
   display: flex;
   justify-content: space-between;
 }
-.social__icon {
-  height: 14px;
-  width: 14px;
+.social__item {
+  height: 16px;
+  width: 16px;
   background-color: #000;
   color: #fff;
 }
