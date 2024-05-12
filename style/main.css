@@ -471,10 +471,17 @@ height: 499px;
   justify-content: space-between;
 }
 .social__item {
-  height: 16px;
+    height: 16px;
   width: 16px;
-  background-color: #000;
+}
+.social__link {
   color: #fff;
+}
+.social__link:hover {
+  color:#48555b;
+}
+.social__link path {
+  fill:currentColor;
 }
 .footer__copyright {
   background-color: #171819;
