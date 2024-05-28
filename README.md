@@ -1,6 +1,7 @@
 # Konstruct template
 
 Лэндинг для строительной компании.
+Готовый сайт https://oxana2014.github.io/Konstruct-Template/
 
 Верстка HTML, CSS с макета Figma.
 
