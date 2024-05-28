@@ -612,11 +612,11 @@ height: 499px;
     margin: 0 auto;
     gap: 30px;
   }
-  .footer__social {
+  .footer__social-list {
     padding-top: 31px;
     width: 87px;
     display: flex;
-    justify-content: space-between;
+     justify-content: space-between; 
   }
   .copyright {
     padding-top: 0;
